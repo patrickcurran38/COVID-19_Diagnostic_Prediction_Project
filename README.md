@@ -1,2 +1,5 @@
-# COVID-19_Diagnostic_Prediction_Project
- COVID-19 Diagnostic Prediction Project
+# COVID-19 Diagnostic Prediction Project
+
+Using Python and Jupyter Notebook, multiple prediction models were created to predict the COVID-19 test result of a patient based on bloodwork and other labratory tests.  After cleaning and preprocessing the data, multiple iterations of models were created using parametric grid search.  The following models were developed: k-nearest neighbors, decision trees, random forests, extra trees, support vector machines using a linear, polynomial, and radial basis function, artificial neural network, stochastic gradient descent, gradient boosting, logistic regression, bagging using extra trees, AdaBoost using extra trees, and stacking using voting and GaussianNB as the decision classifier.
+
+Ultimately, the support vector machine with a linear kernal was used as the final model.  This particular model had a recall of over 95% and a ROC score of 0.870.  A sample MEMO to the president of the hospital is also available for download to help explain the model decision.
